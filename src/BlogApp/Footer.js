@@ -3,8 +3,8 @@ import './styles.css'
 function Footer() {
   return (
     <div className='footer'>
-        <h2>Yousaf !</h2>
-        <p>@copyright code with yousaf</p>
+        <h2>blog2for</h2>
+        <p>copyright@2024</p>
     </div>
   )
 }

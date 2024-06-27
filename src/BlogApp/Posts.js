@@ -8,9 +8,10 @@ function Posts() {
     const [records, setRecords] = useState([])
 
     useEffect(() => {
-        axios.get('https://dummyjson.com/products')
+        axios.get('https://dummyjson.com/products/?limit=12&skip=10')
         .then(res => {
             setBlogs(res.data.products)
+            console.log(res.data.products)
             setRecords(res.data.products)
         })
         .catch(err => console.log(err))

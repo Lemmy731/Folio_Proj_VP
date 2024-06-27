@@ -4,7 +4,7 @@ import './styles.css'
 
 function Post({blog, key}) {
   return (
-    <Link to={`/read/${blog.id}`} className='post-link'>
+    <Link to={`/detail/${blog.id}`} className='post-link'>
         <div className='blog'>
             <img src={blog.thumbnail} className="blog-image"/>
             <div className='blog-title'>

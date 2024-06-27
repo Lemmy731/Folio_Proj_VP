@@ -12,8 +12,8 @@ function App() {
             <Nav/>
             <Routes>
                 <Route path="/" element={<Posts />}></Route>
-                <Route path="/read/:id" element={<Detail />}></Route>
-                <Route path="/newblog" element={<Create />}></Route>
+                <Route path="/detail/:id" element={<Detail />}></Route>
+                <Route path="/blog" element={<Create />}></Route>
             </Routes>
             <Footer />
         </BrowserRouter>
